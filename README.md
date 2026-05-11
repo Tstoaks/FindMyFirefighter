@@ -9,13 +9,14 @@ Boilerplate capstone repository for two students: **Jonah** and **Tyler**.
 - `jonah` - Jonah's personal working branch
 - `tyler` - Tyler's personal working branch
 
-Create the branches from your local clone:
+Create/sync the branches from your local clone:
 
 ```bash
-git checkout -b main
-git checkout -b develop
-git checkout -b jonah
-git checkout -b tyler
+git checkout main
+git pull
+git checkout -b develop main
+git checkout -b jonah develop
+git checkout -b tyler develop
 ```
 
 ## Boilerplate workspace layout
